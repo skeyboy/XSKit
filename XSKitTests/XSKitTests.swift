@@ -43,19 +43,18 @@ class XSKitTests: XCTestCase {
         print(application?.appVersion )
         print(application?.documentsURL)
     }
-    func testImageType(){
-        let image = UIImage(named: "SDWebImageClassDiagram")
-        
-        let data = UIImagePNGRepresentation(image!)
-        let formate = data?.xsType
-        print("\(String(describing: formate))")
-        
-    }
+    
     func testPerformanceExample() {
         // This is an example of a performance test case.
         self.measure {
             // Put the code you want to measure the time of here.
         }
+    }
+    func testPointAdd(){
+        let left: CGPoint = CGPoint(x: 10, y: 10)
+        let right: CGPoint = CGPoint(x: 1, y: 2)
+        let addPoint: CGPoint = right + left
+        print(addPoint)
     }
     
 }

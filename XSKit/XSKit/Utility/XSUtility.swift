@@ -18,13 +18,10 @@ public func isSimulator() -> Bool {
     #endif
     return isSim
 }
-enum XSImageFormate:UInt8{
-   case jpg
-   case png
-   case gif
-    case tiff
-    case webp
-    case heic
-    case unknown
+
+func +(left: CGPoint, right: CGPoint) -> CGPoint{
+    return CGPoint(x: left.x + right.x, y: left.y + right.y )
 }
+
+ 
 

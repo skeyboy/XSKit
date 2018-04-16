@@ -23,5 +23,18 @@ extension CALayer {
         UIGraphicsEndImageContext()
         return image!
     }
-    
+}
+
+
+extension CALayer{
+    var snapshotPDF:Data {
+        let data:NSMutableData = NSMutableData()
+        UIGraphicsBeginPDFContextToData(data, self.bounds, nil)
+        let context = UIGraphicsGetCurrentContext()
+        UIGraphicsBeginPDFPage()
+        self.render(in: context!)
+        UIGraphicsEndPDFContext()
+        return data as Data
+        
+    }
 }

@@ -13,7 +13,7 @@ typealias Screen = UIScreen
 #endif
 
 extension Screen {
-    class func screenScal() -> CGFont {
-            return Screen.main.scale as! CGFont
+    class func screenScal() -> CGFloat {
+        return Screen.main.scale
     }
 }

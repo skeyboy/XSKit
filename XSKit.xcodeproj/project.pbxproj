@@ -32,6 +32,19 @@
 		8B16A85F207332A70088D8A1 /* UITableView+XSAdd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B16A85D207332A70088D8A1 /* UITableView+XSAdd.swift */; };
 		8B16A860207332A70088D8A1 /* UITableView+XSAdd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B16A85D207332A70088D8A1 /* UITableView+XSAdd.swift */; };
 		8B6B7FFF207B68A60084C870 /* libapple_crypto.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B6B7FFE207B68A60084C870 /* libapple_crypto.tbd */; };
+		8B7EDA48207F08FA009D3717 /* String+XSAdd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7EDA47207F08FA009D3717 /* String+XSAdd.swift */; };
+		8B7EDA49207F08FA009D3717 /* String+XSAdd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7EDA47207F08FA009D3717 /* String+XSAdd.swift */; };
+		8B7EDA4A207F08FA009D3717 /* String+XSAdd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7EDA47207F08FA009D3717 /* String+XSAdd.swift */; };
+		8B7EDA4C207F0BF8009D3717 /* libboringssl.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B7EDA4B207F0BF8009D3717 /* libboringssl.tbd */; };
+		8B97221A20847E3500AD2509 /* Data+XSAdd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B97221920847E3500AD2509 /* Data+XSAdd.swift */; };
+		8B97221B20847E3500AD2509 /* Data+XSAdd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B97221920847E3500AD2509 /* Data+XSAdd.swift */; };
+		8B97221C20847E3500AD2509 /* Data+XSAdd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B97221920847E3500AD2509 /* Data+XSAdd.swift */; };
+		8B97221E208480F600AD2509 /* Array+XSAdd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B97221D208480F600AD2509 /* Array+XSAdd.swift */; };
+		8B97221F208480F600AD2509 /* Array+XSAdd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B97221D208480F600AD2509 /* Array+XSAdd.swift */; };
+		8B972220208480F600AD2509 /* Array+XSAdd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B97221D208480F600AD2509 /* Array+XSAdd.swift */; };
+		8B9722222084830F00AD2509 /* Date+XSAdd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B9722212084830F00AD2509 /* Date+XSAdd.swift */; };
+		8B9722232084830F00AD2509 /* Date+XSAdd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B9722212084830F00AD2509 /* Date+XSAdd.swift */; };
+		8B9722242084830F00AD2509 /* Date+XSAdd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B9722212084830F00AD2509 /* Date+XSAdd.swift */; };
 		8BD4BB8F2071D33100C21DF1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD4BB8E2071D33100C21DF1 /* AppDelegate.swift */; };
 		8BD4BB912071D33100C21DF1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD4BB902071D33100C21DF1 /* ViewController.swift */; };
 		8BD4BB942071D33100C21DF1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BD4BB922071D33100C21DF1 /* Main.storyboard */; };
@@ -45,9 +58,6 @@
 		8BD4BBC42071D4E300C21DF1 /* XSFPSLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD4BBC32071D4E300C21DF1 /* XSFPSLabel.swift */; };
 		8BD4BBC52071D4E300C21DF1 /* XSFPSLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD4BBC32071D4E300C21DF1 /* XSFPSLabel.swift */; };
 		8BD4BBC62071D4E300C21DF1 /* XSFPSLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD4BBC32071D4E300C21DF1 /* XSFPSLabel.swift */; };
-		8BEB54B2207DF6F200644421 /* Data+XSImageType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BEB54B1207DF6F200644421 /* Data+XSImageType.swift */; };
-		8BEB54B3207DF6F200644421 /* Data+XSImageType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BEB54B1207DF6F200644421 /* Data+XSImageType.swift */; };
-		8BEB54B4207DF6F200644421 /* Data+XSImageType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BEB54B1207DF6F200644421 /* Data+XSImageType.swift */; };
 		8BEB54B6207DF9F100644421 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BEB54B5207DF9F100644421 /* MobileCoreServices.framework */; };
 		8BEB54B9207E0C0400644421 /* SDWebImageClassDiagram.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BEB54B8207E0C0400644421 /* SDWebImageClassDiagram.png */; };
 		8BEB54BA207E0C0400644421 /* SDWebImageClassDiagram.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BEB54B8207E0C0400644421 /* SDWebImageClassDiagram.png */; };
@@ -81,6 +91,14 @@
 		8B16A85920732F5F0088D8A1 /* UIScrollView+XSAdd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIScrollView+XSAdd.swift"; sourceTree = "<group>"; };
 		8B16A85D207332A70088D8A1 /* UITableView+XSAdd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+XSAdd.swift"; sourceTree = "<group>"; };
 		8B6B7FFE207B68A60084C870 /* libapple_crypto.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libapple_crypto.tbd; path = usr/lib/libapple_crypto.tbd; sourceTree = SDKROOT; };
+		8B7EDA47207F08FA009D3717 /* String+XSAdd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+XSAdd.swift"; sourceTree = "<group>"; };
+		8B7EDA4B207F0BF8009D3717 /* libboringssl.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libboringssl.tbd; path = usr/lib/libboringssl.tbd; sourceTree = SDKROOT; };
+		8B7EDA4E207F0CFE009D3717 /* XSKit-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XSKit-Bridging-Header.h"; sourceTree = "<group>"; };
+		8B7EDA4F207F0CFF009D3717 /* XSKitTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XSKitTests-Bridging-Header.h"; sourceTree = "<group>"; };
+		8B7EDA50207F0CFF009D3717 /* XSKitUITests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XSKitUITests-Bridging-Header.h"; sourceTree = "<group>"; };
+		8B97221920847E3500AD2509 /* Data+XSAdd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data+XSAdd.swift"; sourceTree = "<group>"; };
+		8B97221D208480F600AD2509 /* Array+XSAdd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+XSAdd.swift"; sourceTree = "<group>"; };
+		8B9722212084830F00AD2509 /* Date+XSAdd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+XSAdd.swift"; sourceTree = "<group>"; };
 		8BD4BB8B2071D33100C21DF1 /* XSKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XSKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BD4BB8E2071D33100C21DF1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8BD4BB902071D33100C21DF1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -96,7 +114,6 @@
 		8BD4BBB02071D33300C21DF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8BD4BBBE2071D3AF00C21DF1 /* XSUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XSUtility.swift; sourceTree = "<group>"; };
 		8BD4BBC32071D4E300C21DF1 /* XSFPSLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XSFPSLabel.swift; sourceTree = "<group>"; };
-		8BEB54B1207DF6F200644421 /* Data+XSImageType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data+XSImageType.swift"; sourceTree = "<group>"; };
 		8BEB54B5207DF9F100644421 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		8BEB54B8207E0C0400644421 /* SDWebImageClassDiagram.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SDWebImageClassDiagram.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -106,8 +123,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8BEB54B6207DF9F100644421 /* MobileCoreServices.framework in Frameworks */,
+				8B7EDA4C207F0BF8009D3717 /* libboringssl.tbd in Frameworks */,
 				8B6B7FFF207B68A60084C870 /* libapple_crypto.tbd in Frameworks */,
+				8BEB54B6207DF9F100644421 /* MobileCoreServices.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,7 +164,10 @@
 		8B6B7FF4207B67670084C870 /* Foundation */ = {
 			isa = PBXGroup;
 			children = (
-				8BEB54B1207DF6F200644421 /* Data+XSImageType.swift */,
+				8B7EDA47207F08FA009D3717 /* String+XSAdd.swift */,
+				8B97221920847E3500AD2509 /* Data+XSAdd.swift */,
+				8B97221D208480F600AD2509 /* Array+XSAdd.swift */,
+				8B9722212084830F00AD2509 /* Date+XSAdd.swift */,
 			);
 			path = Foundation;
 			sourceTree = "<group>";
@@ -154,6 +175,7 @@
 		8B6B7FFD207B68A60084C870 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8B7EDA4B207F0BF8009D3717 /* libboringssl.tbd */,
 				8BEB54B5207DF9F100644421 /* MobileCoreServices.framework */,
 				8B6B7FFE207B68A60084C870 /* libapple_crypto.tbd */,
 			);
@@ -221,6 +243,9 @@
 				8B16A83C207222160088D8A1 /* UIKit */,
 				8BD4BBC22071D4C500C21DF1 /* Other */,
 				8BD4BBBD2071D39000C21DF1 /* Utility */,
+				8B7EDA4E207F0CFE009D3717 /* XSKit-Bridging-Header.h */,
+				8B7EDA4F207F0CFF009D3717 /* XSKitTests-Bridging-Header.h */,
+				8B7EDA50207F0CFF009D3717 /* XSKitUITests-Bridging-Header.h */,
 			);
 			path = XSKit;
 			sourceTree = "<group>";
@@ -317,13 +342,16 @@
 				TargetAttributes = {
 					8BD4BB8A2071D33100C21DF1 = {
 						CreatedOnToolsVersion = 9.3;
+						LastSwiftMigration = 0930;
 					};
 					8BD4BB9E2071D33200C21DF1 = {
 						CreatedOnToolsVersion = 9.3;
+						LastSwiftMigration = 0930;
 						TestTargetID = 8BD4BB8A2071D33100C21DF1;
 					};
 					8BD4BBA92071D33300C21DF1 = {
 						CreatedOnToolsVersion = 9.3;
+						LastSwiftMigration = 0930;
 						TestTargetID = 8BD4BB8A2071D33100C21DF1;
 					};
 				};
@@ -383,13 +411,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B7EDA48207F08FA009D3717 /* String+XSAdd.swift in Sources */,
 				8B16A846207229C60088D8A1 /* UITextField+XSAdd.swift in Sources */,
+				8B97221A20847E3500AD2509 /* Data+XSAdd.swift in Sources */,
 				8B16A85620732A570088D8A1 /* UIView+XSAdd.swift in Sources */,
-				8BEB54B2207DF6F200644421 /* Data+XSImageType.swift in Sources */,
 				8B16A83E2072223E0088D8A1 /* UIApplication+XSAdd.swift in Sources */,
 				8BD4BB912071D33100C21DF1 /* ViewController.swift in Sources */,
 				8BD4BBBF2071D3AF00C21DF1 /* XSUtility.swift in Sources */,
 				8B16A85A20732F5F0088D8A1 /* UIScrollView+XSAdd.swift in Sources */,
+				8B9722222084830F00AD2509 /* Date+XSAdd.swift in Sources */,
+				8B97221E208480F600AD2509 /* Array+XSAdd.swift in Sources */,
 				8B16A85E207332A70088D8A1 /* UITableView+XSAdd.swift in Sources */,
 				8B16A84A20722E030088D8A1 /* UIScreen+XSAdd.swift in Sources */,
 				8BD4BB8F2071D33100C21DF1 /* AppDelegate.swift in Sources */,
@@ -406,10 +437,13 @@
 				8B16A85F207332A70088D8A1 /* UITableView+XSAdd.swift in Sources */,
 				8BD4BBA42071D33200C21DF1 /* XSKitTests.swift in Sources */,
 				8B16A843207224CC0088D8A1 /* UIDevice+XSAdd.swift in Sources */,
+				8B7EDA49207F08FA009D3717 /* String+XSAdd.swift in Sources */,
+				8B97221F208480F600AD2509 /* Array+XSAdd.swift in Sources */,
 				8B16A847207229C60088D8A1 /* UITextField+XSAdd.swift in Sources */,
 				8B16A84B20722E030088D8A1 /* UIScreen+XSAdd.swift in Sources */,
+				8B9722232084830F00AD2509 /* Date+XSAdd.swift in Sources */,
 				8B16A83F2072223E0088D8A1 /* UIApplication+XSAdd.swift in Sources */,
-				8BEB54B3207DF6F200644421 /* Data+XSImageType.swift in Sources */,
+				8B97221B20847E3500AD2509 /* Data+XSAdd.swift in Sources */,
 				8BD4BBC02071D3AF00C21DF1 /* XSUtility.swift in Sources */,
 				8B16A85720732A570088D8A1 /* UIView+XSAdd.swift in Sources */,
 				8B16A84F207232880088D8A1 /* CALayer+XSAdd.swift in Sources */,
@@ -425,10 +459,13 @@
 				8B16A860207332A70088D8A1 /* UITableView+XSAdd.swift in Sources */,
 				8BD4BBAF2071D33300C21DF1 /* XSKitUITests.swift in Sources */,
 				8B16A844207224CC0088D8A1 /* UIDevice+XSAdd.swift in Sources */,
+				8B7EDA4A207F08FA009D3717 /* String+XSAdd.swift in Sources */,
+				8B972220208480F600AD2509 /* Array+XSAdd.swift in Sources */,
 				8B16A848207229C60088D8A1 /* UITextField+XSAdd.swift in Sources */,
 				8B16A84C20722E030088D8A1 /* UIScreen+XSAdd.swift in Sources */,
+				8B9722242084830F00AD2509 /* Date+XSAdd.swift in Sources */,
 				8B16A8402072223E0088D8A1 /* UIApplication+XSAdd.swift in Sources */,
-				8BEB54B4207DF6F200644421 /* Data+XSImageType.swift in Sources */,
+				8B97221C20847E3500AD2509 /* Data+XSAdd.swift in Sources */,
 				8BD4BBC12071D3AF00C21DF1 /* XSUtility.swift in Sources */,
 				8B16A85820732A570088D8A1 /* UIView+XSAdd.swift in Sources */,
 				8B16A850207232880088D8A1 /* CALayer+XSAdd.swift in Sources */,
@@ -590,6 +627,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = XSKit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -599,6 +637,10 @@
 				PRODUCT_BUNDLE_IDENTIFIER = le.XSKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_INCLUDE_PATHS = "\"$(SRCROOT)/XSKit/XSKit/Foundation/modulemap.strings\"";
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/le/Desktop/XSKit/XSKit/XSKit/XSKit-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_PRECOMPILE_BRIDGING_HEADER = NO;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -608,6 +650,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = XSKit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -617,6 +660,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = le.XSKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_INCLUDE_PATHS = "\"$(SRCROOT)/XSKit/XSKit/Foundation/modulemap.strings\"";
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/le/Desktop/XSKit/XSKit/XSKit/XSKit-Bridging-Header.h";
+				SWIFT_PRECOMPILE_BRIDGING_HEADER = NO;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -627,6 +673,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = XSKitTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -636,6 +683,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = le.XSKitTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "XSKit/XSKit/XSKitTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XSKit.app/XSKit";
@@ -647,6 +696,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = XSKitTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -656,6 +706,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = le.XSKitTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "XSKit/XSKit/XSKitTests-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XSKit.app/XSKit";
@@ -666,6 +717,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = XSKitUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -675,6 +727,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = le.XSKitUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "XSKit/XSKit/XSKitUITests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = XSKit;
@@ -685,6 +739,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = XSKitUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -694,6 +749,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = le.XSKitUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "XSKit/XSKit/XSKitUITests-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = XSKit;
