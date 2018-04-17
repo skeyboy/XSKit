@@ -14,7 +14,7 @@ extension UIColor{
     var alpha: CGFloat{
         return self.cgColor.alpha
     }
-    var rgbValue:Int32{
+  public  var rgbValue:Int32{
         
         let red:UnsafeMutablePointer<CGFloat> = UnsafeMutablePointer<CGFloat>.allocate(capacity: 0)
         let green:UnsafeMutablePointer<CGFloat> = UnsafeMutablePointer<CGFloat>.allocate(capacity: 0)

@@ -9,7 +9,7 @@
 import Foundation
 
 extension String{
-    var cString:UnsafePointer<Int8>?{
+  public  var cString:UnsafePointer<Int8>?{
        return (self as NSString).utf8String
     }
    

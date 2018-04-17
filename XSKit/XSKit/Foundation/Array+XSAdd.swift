@@ -18,14 +18,14 @@ extension Array{
     }
 }
 extension Array{
-    var first: Element? {
+   public var first: Element? {
         var tmp:Element? = nil
         safe {
             tmp = self.first
         }
         return tmp
     }
-    var last: Element? {
+  public  var last: Element? {
         var tmp:Element? = nil
         safe {
             tmp = self.last
@@ -35,12 +35,12 @@ extension Array{
     
 }
 extension Array{
-    func append<Element>(element:Element) -> Void {
+   public func append<Element>(element:Element) -> Void {
         safe {
             self.append(element: element)
         }
     }
-    func  insert<Element>(newElement: Element, at: Int){
+   public func  insert<Element>(newElement: Element, at: Int){
         safe {
             self.insert(newElement: newElement, at: at)
         }
