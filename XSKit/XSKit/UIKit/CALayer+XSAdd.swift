@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 extension CALayer {
-    var snapshotImage:UIImage? {
+   public var snapshotImage:UIImage? {
         
         UIGraphicsBeginImageContextWithOptions(self.bounds.size, self.isOpaque, 0)
         
@@ -27,7 +27,7 @@ extension CALayer {
 
 
 extension CALayer{
-    var snapshotPDF:Data {
+  public  var snapshotPDF:Data {
         let data:NSMutableData = NSMutableData()
         UIGraphicsBeginPDFContextToData(data, self.bounds, nil)
         let context = UIGraphicsGetCurrentContext()

@@ -13,7 +13,7 @@ typealias CC_LONG = UInt32
 
 extension Data {
    
-    func hexString() -> String {
+   public func hexString() -> String {
         let string = self.map{String(format:"%02x", Int($0))}.joined()
         return string
     }

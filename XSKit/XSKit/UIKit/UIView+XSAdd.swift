@@ -13,7 +13,7 @@ typealias View = UIView
 #endif
 
 extension View{
-    var snapshotImage:UIImage?{
+ public   var snapshotImage:UIImage?{
         UIGraphicsBeginImageContextWithOptions(self.bounds.size,self.isOpaque, 0)
         layer.render(in: UIGraphicsGetCurrentContext()!)
         
@@ -21,7 +21,7 @@ extension View{
         UIGraphicsEndImageContext()
         return image
     }
-    var viewController:UIViewController? {
+  public  var viewController:UIViewController? {
         var aView:UIView? = self
         while aView != nil {
             let next: UIResponder? = aView?.next
@@ -32,34 +32,34 @@ extension View{
         }
         return nil
     }
-    var size: CGSize{
+   public var size: CGSize{
         return self.frame.size
     }
-    var origin: CGPoint{
+  public  var origin: CGPoint{
         return self.frame.origin
     }
-    var height: CGFloat{
+   public var height: CGFloat{
         return self.size.height
     }
-    var width: CGFloat{
+   public var width: CGFloat{
         return self.size.width
     }
-    var top:CGFloat{
+  public  var top:CGFloat{
         return self.origin.y
     }
-    var bottom:CGFloat{
+  public  var bottom:CGFloat{
         return self.frame.origin.y + self.size.height
     }
-    var left:CGFloat{
+  public  var left:CGFloat{
         return self.origin.x
     }
-    var right: CGFloat{
+  public  var right: CGFloat{
         return self.origin.x + self.width
     }
-    var centerX: CGFloat{
+  public  var centerX: CGFloat{
         return self.center.x
     }
-    var centerY: CGFloat{
+  public  var centerY: CGFloat{
         return self.center.y
     }
 }

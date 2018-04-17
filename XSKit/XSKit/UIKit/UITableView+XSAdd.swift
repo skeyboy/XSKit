@@ -13,7 +13,7 @@ typealias TableView = UITableView
 #endif
 
 extension TableView{
-     func updateMultiple( closure:(TableView)->Void){
+    public func updateMultiple( closure:(TableView)->Void){
         beginUpdates()
         closure(self)
         endUpdates()

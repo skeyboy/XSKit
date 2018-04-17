@@ -9,32 +9,32 @@
 import Foundation
 import UIKit
 extension UIApplication {
-    var  documentsURL: URL {
+  public  var  documentsURL: URL {
        return FileManager.default.urls(for: FileManager.SearchPathDirectory.documentDirectory, in: FileManager.SearchPathDomainMask.userDomainMask).last!
     }
-    var documentsPath: String  {
+  public  var documentsPath: String  {
         return NSSearchPathForDirectoriesInDomains(FileManager.SearchPathDirectory.documentDirectory, FileManager.SearchPathDomainMask.userDomainMask, true).first!
     }
     
-    var cachesURL:URL {
+  public  var cachesURL:URL {
         return FileManager.default.urls(for: FileManager.SearchPathDirectory.cachesDirectory, in: FileManager.SearchPathDomainMask.userDomainMask).last!
     }
-    var cachePath:String {
+  public  var cachePath:String {
         return NSSearchPathForDirectoriesInDomains(FileManager.SearchPathDirectory.cachesDirectory, FileManager.SearchPathDomainMask.userDomainMask, true).first!
     }
-    var libraryURL:URL {
+  public  var libraryURL:URL {
         return FileManager.default.urls(for: FileManager.SearchPathDirectory.libraryDirectory, in: FileManager.SearchPathDomainMask.userDomainMask).last!
     }
-    var librayPath: String {
+  public  var librayPath: String {
         return NSSearchPathForDirectoriesInDomains(FileManager.SearchPathDirectory.libraryDirectory, FileManager.SearchPathDomainMask.userDomainMask, true).first!
     }
-    var appBundleID:String{
+ public   var appBundleID:String{
         return Bundle.main.object(forInfoDictionaryKey: "CFBundleIdentifier") as! String
     }
-    var appVersion:String {
+  public  var appVersion:String {
         return Bundle.main.object(forInfoDictionaryKey: "CFBundleShortVersionString") as! String
     }
-    var appBuildVersion:String {
+  public  var appBuildVersion:String {
         return Bundle.main.object(forInfoDictionaryKey: "CFBundleVersion") as! String
     }
 }

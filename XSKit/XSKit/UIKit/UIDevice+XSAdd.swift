@@ -26,13 +26,13 @@ return false
     }
 }
 extension Device{
-    var cpuCount:Int{
+   public var cpuCount:Int{
         return ProcessInfo.processInfo.activeProcessorCount
     }
-    var memoryTotal:UInt64{
+  public  var memoryTotal:UInt64{
       return  ProcessInfo.processInfo.physicalMemory
     }
-    var memoryUsed:Int64 {
+  public  var memoryUsed:Int64 {
         let host_port:mach_port_t =  mach_host_self()
         
         let host_size:UnsafeMutablePointer<mach_msg_type_number_t> = UnsafeMutablePointer<mach_msg_type_number_t>.allocate(capacity: MemoryLayout.size(ofValue: vm_statistics_data_t())/MemoryLayout.size(ofValue: integer_t()))
@@ -52,16 +52,16 @@ extension Device{
         return Int64((vm_stat as! vm_statistics_data_t).free_count) * Int64(page_size.pointee)
         
     }
-    var diskSpaceFree:Int64{
+   public var diskSpaceFree:Int64{
         let attrs = try! FileManager.default.attributesOfFileSystem(forPath: NSHomeDirectory())
         
         return attrs[FileAttributeKey.systemFreeSize] as! Int64
     }
-    var diskSpace:Int64 {
+   public var diskSpace:Int64 {
         let attrs = try! FileManager.default.attributesOfFileSystem(forPath: NSHomeDirectory())
         return attrs[FileAttributeKey.systemSize] as! Int64
     }
-    var diskSpaceUsed:Int64 {
+   public var diskSpaceUsed:Int64 {
         
         return min(diskSpace - diskSpaceFree, diskSpace)
     }
