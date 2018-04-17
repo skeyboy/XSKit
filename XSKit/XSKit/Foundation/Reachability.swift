@@ -9,7 +9,7 @@
 import Foundation
 import SystemConfiguration
 
-final class Reachability{
+final public class Reachability{
     private init(){}
     class  var shared:Reachability{
     
