@@ -11,7 +11,7 @@ import SystemConfiguration
 
 final public class Reachability{
     private init(){}
-    class  var shared:Reachability{
+  public  class  var shared:Reachability{
     
         struct Static{
             static let instance:Reachability = Reachability()
