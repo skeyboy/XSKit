@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
 #{s.summary}
                    DESC
 
-  s.homepage     = "http://EXAMPLE/XSKit"
+  s.homepage     = "https://github.com/skeyboy/XSKit"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -91,7 +91,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-s.source_files  = "XSKit/XSKit/*.{swift}"
+s.source_files  = "XSKit/XSKit/**/*.{swift}"
 #s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"

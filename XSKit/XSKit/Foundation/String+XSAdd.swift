@@ -12,9 +12,5 @@ extension String{
     var cString:UnsafePointer<Int8>?{
        return (self as NSString).utf8String
     }
-    
-    var sha1: String {
-        data(using: String.Encoding.utf8)
-        CC_SHA1_DIGEST_LENGTH
-    }
+   
 }
